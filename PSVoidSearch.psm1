@@ -1,6 +1,6 @@
 function Get-VTSearch
 {
-    [CmdletBinding()]
+    [CmdletBinding(defaultparametersetname="all")]
     [Alias('vt')]
     Param
     (
